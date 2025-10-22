@@ -1,0 +1,13 @@
+__pycache__
+test*
+log*
+.vscode
+*.log
+*.pkl
+*.zip
+*.out
+cache
+.cache
+script/*.sh
+wandb
+._*
