@@ -97,3 +97,18 @@ python udm_trainer.py --filename='QM9/UDM' --devices="[0,]" --dataset='qm9' --ro
 ```bash
 python udm_trainer.py --test_only --filename='QM9/UDM' --devices="[0,]" --dataset='qm9' --root='data/QM9' --vae_ckpt='./all_checkpoints/QM9/UAE/last.ckpt' --condition_property='mu'
 ```
+
+
+## Citation
+
+If you use our codes or checkpoints, please cite your paper:
+
+```bib
+@inproceedings{luo2025towards,
+    title        = {Towards Unified Latent Space for 3D Molecular Latent Diffusion Modeling},
+    author       = {Yanchen Luo an Zhiyuan Liu and Yi Zhao and Sihang Li and Kenji Kawaguchi and Tat{-}Seng Chua and Xiang Wang},
+    booktitle    = {The Thirty-Ninth Conference on Neural Information Processing Systems},
+    year         = {2025},
+    url          = {https://openreview.net/forum?id=g2XE40zTrj}
+}
+```
