@@ -101,12 +101,12 @@ python udm_trainer.py --test_only --filename='QM9/UDM' --devices="[0,]" --datase
 
 ## Citation
 
-If you use our codes or checkpoints, please cite your paper:
+If you use our codes or checkpoints, please cite our paper:
 
 ```bib
 @inproceedings{luo2025towards,
     title        = {Towards Unified Latent Space for 3D Molecular Latent Diffusion Modeling},
-    author       = {Yanchen Luo an Zhiyuan Liu and Yi Zhao and Sihang Li and Kenji Kawaguchi and Tat{-}Seng Chua and Xiang Wang},
+    author       = {Yanchen Luo and Zhiyuan Liu and Yi Zhao and Sihang Li and Kenji Kawaguchi and Tat{-}Seng Chua and Xiang Wang},
     booktitle    = {The Thirty-Ninth Conference on Neural Information Processing Systems},
     year         = {2025},
     url          = {https://openreview.net/forum?id=g2XE40zTrj}
